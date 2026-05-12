@@ -51,6 +51,9 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# Ruff
+.ruff_cache/
+
 # Translations
 *.mo
 *.pot
@@ -136,3 +139,8 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
